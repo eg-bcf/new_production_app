@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu|Nunito+Sans');
+
+.app{
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 10% 30% 30% 30%;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: #DCDCDC;
+}
+
+.side-nav {
+  font-family: 'Baloo Tammudu', cursive;
+  height: 100%;
+  width: 100%;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 7;
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+  justify-content: space-evenly;
+}
+
+.nav-item {
+  font-family: 'Baloo Tammudu', cursive;
+  float: left;
+  text-align: center;
+  background-color: white;
+  width: 80%;
+  margin-left: 10%;
+  z-index: 5;
+  box-shadow: 0 10% 10% 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 3%;
+}
+
+.nav-item:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.content-area-1-container {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  height: 100%;
+  width: 100%;
+}
+
+.content-area-2-container {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  height: 100%;
+  width: 100%;
+}
+
+.content-area-3-container {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  height: 100%;
+  width: 100%;
+}
+
+.content-area-4-container {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 7;
+  height: 100%;
+  width: 100%;
+}
+
+.content-area-5-container {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 7;
+  height: 100%;
+  width: 100%;
+}
+
+.content-area-6-container {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 7;
+  height: 100%;
+  width: 100%;
+}
+
+.content-area {
+  font-family: 'Baloo Tammudu', cursive;
+  color: rgb(54, 68, 68);
+  z-index: 5;
+  height: 92%;
+  width: 92%;
+  margin: 4% 4%;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 10% 10% 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.content-area:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.content-area p {
+  padding-top: 2%;
+}
+/***********************************************************
+
+***********************************************************/
+.container1 {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: #DCDCDC;
+}
+
+.side-nav1 {
+  height: 100%;
+  width: 100%;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 7;
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+  justify-content: space-evenly;
+}
+
+.nav-item1 {
+  font-family: 'Baloo Tammudu', cursive;
+  float: left;
+  text-align: center;
+  background-color: white;
+  width: 80%;
+  margin-left: 10%;
+  z-index: 5;
+  box-shadow: 0 10% 10% 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 3%;
+}
+
+.tableArea {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 7;
+}
+
+.nav-item1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.header {
+  font-family: 'Baloo Tammudu', cursive;
+  text-align: center;
+  width: 100%;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.headerValues {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: center;
+  font-family: 'Baloo Tammudu', cursive;
+}
+
+.headerValues a {
+  font-family: 'Baloo Tammudu', cursive;
+  color: rgb(54, 68, 68);
+  width: 16%;
+  display:
+  block;
+  float:left;
+}
+
+.shopHeaderValues {
+  font-family: 'Baloo Tammudu', cursive;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: center;
+}
+
+.shopHeaderValues a {
+  font-family: 'Baloo Tammudu', cursive;
+  width:50%;
+  display:
+  block;
+  float:left;
+}
+
+.headerValues a:nth-child(3) {
+  width:20%;
+  display:
+  block;
+  float:left;
+}
+
+.selectedValue {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  width: 100%;
+  text-align: center;
+}
+
+table {
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 100%;
+  /* Table reset stuff */
+  border-collapse: collapse; border-spacing: 0;
+}
+
+td, th {  border: 0 none; height: 5%; }
+
+th {
+  /* Gradient Background */
+	background: linear-gradient(#333 0%,#444 100%);
+	color: #FFF; font-weight: bold;
+	height: 5%;
+}
+
+td { background: #FAFAFA; text-align: center; }
+
+/* Zebra Stripe Rows */
+
+tr:nth-child(even) td { background: #EEE; }
+tr:nth-child(odd) td { background: #FDFDFD; }
